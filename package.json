@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack -p --watch && webpack-dev-server",
     "react-dev": "npm run build",
-    "start": "nodemon server/index.js",
-    "build": "webpack -p --watch && webpack-dev-server"
+    "start": "nodemon server/index.js"
   },
   "keywords": [],
   "author": "Ryan Brennan",

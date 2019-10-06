@@ -3,12 +3,21 @@ import ReactDOM from 'react-dom';
 // require ('./css/style.css');
 
 
-class App extends React.Component{
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      secretWord: 'apple',
+      incorrectLetters: []
+    }
+  }
+
 
   render() {
     return (
       <div>
-        Heyyyyyyy
+        {this.state.secretWord}
       </div>
     )
   }
