@@ -11,12 +11,12 @@ module.exports = {
             }
         ]
     },
-    resolve: {
-        extensions: ['*', '.js', '.jsx']
-    },
     output: {
         filename: 'bundle.js',
         path: path.join(__dirname, '/public')
+    },
+    resolve: {
+        extensions: ['*', '.js', '.jsx']
     },
     devServer: {
         contentBase: './public',
@@ -24,6 +24,4 @@ module.exports = {
     }
 };
 
-// path: __dirname + '/public',
-// publicPath: '/',
-// filename: 'bundle.js'
+

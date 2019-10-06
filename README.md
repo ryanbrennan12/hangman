@@ -15,6 +15,7 @@
 ```
  x setup React with Webpack and Babel
  - setup Express server
+ - revisit to bundle into a `dist` folder
 
 ```
 
